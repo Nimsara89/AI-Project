@@ -1,5 +1,5 @@
 import os
-from symspellpy.symspellpy import SymSpell, Verbosity
+from symspellpy import SymSpell, Verbosity
 
 # Initialize SymSpell with default parameters
 max_edit_distance = 2
