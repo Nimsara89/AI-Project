@@ -1,4 +1,5 @@
 Spell Checker and Corrector 
+
 Spell Checker Uses the Difflib Library for the purpose of spell Checking and correcting them. 
 It provides suggestions based on the misspelled words by searching them through the 
 dictionary and replaces them with the most probable word from the list. 
@@ -12,7 +13,9 @@ function to find the closest match to the word in the dictionary.
 o If a close match is found, the function returns the closest suggestion. 
 • Fallback to Original Word: 
 o If no close match is found, the function returns the original word as is. 
+
 Grammer Checker and Corrector 
+
 The Grammar Checker has the following approach. We are using a rule-based approach to 
 find and correct grammatical errors. The rules that are used to check grammar are as 
 follows. 
