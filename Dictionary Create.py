@@ -1,5 +1,5 @@
 # Read the file
-with open('D:\Python Sem 6\english-sinhala_dictionary.txt', 'r', encoding='utf-8') as file:
+with open('D:\Python Sem 6\Dictionary.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
 # Extract Sinhala words
@@ -18,5 +18,5 @@ for line in lines:
 unique_sinhala_words = sorted(set(sinhala_words))
 
 # Save to a text file
-with open('D:\Python Sem 6\english-sinhala_dictionary.txt', 'w', encoding='utf-8') as file:
+with open('D:\Python Sem 6\Dictionary.txt', 'w', encoding='utf-8') as file:
     file.write(','.join(unique_sinhala_words))
