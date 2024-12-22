@@ -1,7 +1,7 @@
 import difflib
 
 # Load the dictionary
-with open('sinhala_dictionary.txt', 'r', encoding='utf-8') as file:
+with open('Dict.txt', 'r', encoding='utf-8') as file:
     dictionary = set(file.read().split(','))
 
 def check_spelling(text):
