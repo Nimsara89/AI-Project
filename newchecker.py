@@ -60,7 +60,7 @@ if __name__ == "__main__":
     sinhala_words = load_dictionary(dictionary_path)
 
     # Input sentence
-    input_sentence = "ලංකව ඉන්දයන් සගරයෙන් වටව ඇත"
+    input_sentence = "ලංකාව ඉන්ඩියන් සකාගරයෙන් වරවී ඇක"
 
     # Correct the sentence
     corrected_sentence, suggestions = correct_sentence(input_sentence, sinhala_words)
